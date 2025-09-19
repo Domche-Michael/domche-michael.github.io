@@ -2,10 +2,63 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Michael</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header { background: #2c3e50; color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; }
+    header p { font-size: 1.2em; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    h2 { color: #2c3e50; margin-bottom: 20px; }
+    .projects { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card h3 { margin-top: 0; }
+    footer { text-align: center; padding: 20px; background: #2c3e50; color: #fff; }
+    a { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (max-width: 600px) { .projects { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue sur mon portfolio</h1>
-  <p>Site en construction 🚀</p>
+
+<header>
+  <h1>Michael Domche</h1>
+  <p>Développeur web freelance | HTML, CSS, JavaScript, React</p>
+</header>
+
+<section>
+  <h2>À propos de moi</h2>
+  <p>Je crée des sites web modernes et responsives pour aider les entreprises et particuliers à avoir une présence en ligne professionnelle. Je suis spécialisé en HTML, CSS, JavaScript et React.</p>
+</section>
+
+<section>
+  <h2>Projets</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Site vitrine pour entreprise</h3>
+      <p>Création d’un site moderne et responsive pour une petite entreprise locale.</p>
+    </div>
+    <div class="card">
+      <h3>Mini application React</h3>
+      <p>Application simple de gestion de tâches avec React et stockage local.</p>
+    </div>
+    <div class="card">
+      <h3>Portfolio personnel</h3>
+      <p>Site présentant mes projets et compétences, avec design responsive et navigation fluide.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Vous pouvez me contacter par email : <a href="mailto:domche.michael@example.com">domche.michael@example.com</a></p>
+  <p>Ou visiter mon profil Fiverr : <a href="https://www.fiverr.com/domchemichael">Fiverr</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Michael Domche
+</footer>
+
 </body>
 </html>
